@@ -76,8 +76,17 @@ code {
   left: 30px;
 }
 
-li {
-  padding: 10px 16px;
+.li {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+  padding: 10px;
+  position: relative;
+  left: 650px;
+  text-align: left;
+}
+.text {
+  min-width: 600px;
 }
 
 div {

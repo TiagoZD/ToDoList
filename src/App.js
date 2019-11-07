@@ -19,7 +19,9 @@ const ToDoList = () => {
 
   return (
     <div className="App">
-      <h1>Esta es tu lista: </h1>
+      <div>
+        <h1>Esta es tu lista: </h1>
+      </div>
       <div>
         Agregar un elemento a la lista
         <input
@@ -37,10 +39,11 @@ const ToDoList = () => {
           Agregar
         </button>
       </div>
+
       <div>
         {list.map((task, index) => (
-          <li key={index}>
-            {task}
+          <li key={index} className="li">
+            <div className="text">{task}</div>
             <button
               class="x"
               onClick={() => {
