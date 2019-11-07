@@ -75,20 +75,20 @@ code {
 }
 .x:active {
   position: relative;
-  left: 30px;
+  left: 10px;
 }
 
 .li {
   display: flex;
   flex-direction: row;
-  min-width: 600px;
+  width: 600px;
   padding: 10px;
   position: relative;
-  left: 650px;
+  left: 618px;
   text-align: left;
 }
 .text {
-  min-width: 600px;
+  min-width: 450px;
 }
 
 div {
