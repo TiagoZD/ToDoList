@@ -31,6 +31,7 @@ const ToDoList = () => {
           required="required"
           rows="1"
           value={task}
+          maxlength="40"
           onChange={event => {
             setTask(event.target.value);
           }}
