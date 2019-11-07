@@ -23,6 +23,7 @@ const ToDoList = () => {
       <div>
         Agregar un elemento a la lista
         <input
+          class="txtBox"
           placeholder="Elemento"
           type="text"
           required="required"
