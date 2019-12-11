@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DuplicateCard from "./Helpers/DuplicateCard";
+import DuplicateCard from "./DuplicateCard";
 
 const Card = ({ id, text, active, columnId }) => {
   const [nuevoTexto, setNuevoTexto] = useState(text);
