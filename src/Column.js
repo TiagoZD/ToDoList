@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
-import DuplicateColumn from "./Helpers/DuplicateColumn";
+import DuplicateColumn from "./DuplicateColumn";
 
 const Column = ({ id, active, text }) => {
   const [columnName, setColumnName] = useState(text);
